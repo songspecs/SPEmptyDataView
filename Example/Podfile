@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SPEmptyDataView_Example' do
+  pod 'SPEmptyDataView', :path => '../'
+
+  target 'SPEmptyDataView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
