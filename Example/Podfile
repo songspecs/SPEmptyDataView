@@ -4,7 +4,7 @@ source 'https://github.com/TyroneSong/SPSpecs.git' # 我的私有库
 source 'https://github.com/CocoaPods/Specs.git' # 官方库一定要添加
 
 target 'SPEmptyDataView_Example' do
-  pod 'SPEmptyDataView', :path => '../'
+  pod 'SPEmptyDataView', :podspec => '../SPEmptyDataView'
 
   target 'SPEmptyDataView_Tests' do
     inherit! :search_paths
