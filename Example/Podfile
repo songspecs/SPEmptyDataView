@@ -1,5 +1,8 @@
 use_frameworks!
 
+source 'https://github.com/TyroneSong/SPSpecs.git' # 我的私有库
+source 'https://github.com/CocoaPods/Specs.git' # 官方库一定要添加
+
 target 'SPEmptyDataView_Example' do
   pod 'SPEmptyDataView', :path => '../'
 
